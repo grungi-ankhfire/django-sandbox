@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^simple/', include('simple_page.urls')),
+    url(r'^bokeh/', include('bokeh_plot.urls')),
 ]
